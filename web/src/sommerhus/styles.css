@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: transparent;
+  background-image: linear-gradient(rgb(226, 226, 226), rgb(226, 226, 226));
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  background-color: transparent;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 245, 245));
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 15px;
+}
+
+.top {
+  height: 25vh;
+  background-color: rgb(0, 0, 0);
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: block;
+}
+
+.cart {
+  background-color: rgb(226, 226, 226);
+  width: 15vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-left: 2vh;
+  height: 20vh;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  display: inline;
+}
+
+.cart a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+  margin-top: 75px;
+  margin-left: 3vh;
+}
+
+.cart a:visited {
+  color: black;
+}
+
+.search {
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+  width: 70vw;
+  height: 20vh;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-right: 2vh;
+  float: right;
+  color: black;
+  cursor: pointer;
+  display: inline;
+}
+
+.search a {
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 75px;
+  text-align: center;
+  margin-left: 40%;
+  display: flex;
+}
+
+.search a:visited {
+  color: black;
+}
+
+.home {
+  background-color: rgb(226, 226, 226);
+  width: 90vw;
+  margin-top: 2vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 10vh;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  display: inline;
+}
+
+.home a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.home a:visited {
+  color: black;
+}

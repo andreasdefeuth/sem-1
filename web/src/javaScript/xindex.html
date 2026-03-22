@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>javaScript - AdFG</title>
+  </head>
+  <body>
+    <div>
+      <p id="demo"></p>
+      <p id="demo2"></p>
+      <button type="button" onclick="document.write(5 + 8)">Try it</button>
+      <button onclick="window.print()">Print this page</button>
+      <h1 id="demo3"></h1>
+      <h2>equal to is == not =</h2>
+      <h2>++ == increment</h2>
+      <h2>-- == decrement</h2>
+      <h2>** == exponentiation</h2>
+      <a
+        href="https://www.w3schools.com/js/js_operators.asp#:~:text=x%20%3D%20y-,%2B%3D,-x%20%2B%3D%20y"
+        target="_blank"
+        >Make this make sense</a
+      >>
+      <table>
+        <tr>
+          <th></th>
+          <th>Scope</th>
+          <th>Redeclare</th>
+          <th>Reassign</th>
+          <th>Hoisted</th>
+          <th>Binds this</th>
+        </tr>
+        <tr>
+          <td class="bold">var (iable)</td>
+          <td>no</td>
+          <td>yes</td>
+          <td>yes</td>
+          <td>yes</td>
+          <td>yes</td>
+        </tr>
+        <tr>
+          <td class="bold">let</td>
+          <td>yes</td>
+          <td>no</td>
+          <td>yes</td>
+          <td>no</td>
+          <td>no</td>
+        </tr>
+        <tr>
+          <td class="bold">const (ant reference)</td>
+          <td>yes</td>
+          <td>no</td>
+          <td>no</td>
+          <td>no</td>
+          <td>no</td>
+        </tr>
+      </table>
+    </div>
+    <script>
+      const fname = "John";
+      const y = 7;
+      let x = 5;
+      document.getElementById("demo").innerHTML = "<h2>helloWorld</h2>";
+      document.getElementById("demo2").innerText = "<h2>helloWorld</h2>";
+      document.getElementById("demo3").innerText = x;
+      let myName = "Andreas";
+      document.write("Hello " + myName);
+      /* window.alert(5 + 6);
+      alert(5 + 7); */
+      console.log(5 + 9);
+      let a = 38475677;
+      let b = 934798;
+      let c = a - b;
+      console.log(c);
+    </script>
+  </body>
+</html>

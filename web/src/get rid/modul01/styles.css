@@ -1,0 +1,10 @@
+table {
+  border: 1px solid black;
+  width: fit-content;
+  text-align: left;
+}
+h1 {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(black, rgb(0, 214, 0), blue);
+}

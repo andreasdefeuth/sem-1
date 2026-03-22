@@ -1,0 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgb(74, 197, 150), rgb(62, 139, 74));
+}

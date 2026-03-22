@@ -1,0 +1,110 @@
+<!doctype html>
+  <html lang="en">
+    <title>Index</title>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            h1 {color:red;}
+            h4.dotted {border-style:dotted;}
+        </style>
+        </head>
+    <body style="background-color:rgb(241, 241, 241);">
+      <div>
+        <h1>Hello world</h1>
+        <h2>Hello world</h2>
+        <h3>Hello world</h3>
+        <h4>Hello world</h4>
+        <p>Paragraph cirka samme størrelse som h4 uden bold, større end h5</p>
+        <h5>Hello world</h5>
+        <h6 style="background-color: rgb(218, 218, 218);">Hello world</h6>
+        <a
+          href="https://eaaa.instructure.com/courses/31285/pages/forberedelse-1?module_item_id=952121"
+          >Canvas modul 1</a
+        >
+        <p>Man skal også sætte > efter = i links som a href</p>
+        <a href="https://www.agf.dk"><img src="agf.png" alt="Banner" title="Banner" height="200px"</img></a>
+        <p>Husk at have billeder i samme folder som selve projektet</p>
+      </div>
+      <h1>HTML Basics ^^</h1>
+      <div>
+        <p>
+          <b>Dette</b> er et eksempel på element - nogle elements har intet
+          end-tag (< br/>)<br />
+          for eksempel. Empty elements
+        </p>
+        <p>
+          Alle elements kan blive nested (skrevet ind i hinanden), eksempelvis
+          skal <\body> smides ind i <\html>-element for at virke
+        </p>
+        <p>
+          Man kan godt få nogle elements til at display korrekt uden at indsætte
+          end-tag, men det kan man ikke stole på. Bare husk end-tag. Ser ud som
+          om at Prettier extension gør det umuligt at glemme
+        </p>
+        <a href="https://www.w3schools.com/tags/default.asp"
+          >HTML Tag Reference side</a
+        >
+      </div>
+      <h1>HTML Elements ^^</h1>
+      <div>
+        <p>
+          Attributes er specificeringer. Name/value par som: name="value". a er
+          hyperlink, href er URL, src er path.<br />
+          Af ren og skær lyst har jeg valgt at inddele alle w3 school
+          opgave-siderne i div så jeg kan slå dem til/fra når jeg ikke magter se
+          på det. Jeg prøvede at lave dem clickable, men er ikke klog nok med js
+          endnu
+        </p>
+        <p>
+          Man kan bruge hele URLs (Absolute URL) i img src hvis man vil linke
+          til andre hjemmesider, men det er smartere at have alle sine billeder
+          gemt i folder (Relative URL). Brug slash foran for at specificere endnu mere
+        </p>
+        <p>"alt=" attribute er til display tekst af URL</p>
+        <p>Style attribute p style="color:red;"> indsæt tekst</p>
+        <p>Husk html lang="en" efter doctype</p>
+        <p title="Attribute ass master 2000">Title Attribute bruges til tooltip:
+            <p title="tooltip">p title="tooltip"></p>
+    </p>
+    <p>Brug quotes til Attributes</p>
+    <p>Brug ' single hvis " double bruges i selve quote</p>
+    <a href="https://www.w3schools.com/tags/ref_attributes.asp">Attribute Reference side</a>
+      </div>
+      <h1>HTML Attributes ^^</h1>
+      <div>
+        <p style="background-color: rgb(177, 177, 255); color: yellow;">Style er CSS: <\tagname style="property:value;"\></tagname></p>
+        <p style="background-color: powderblue; color: brown;"><\body style="background-color:powderblue;"></body\></p>
+        <p>rgb(207, 207, 207);</p>
+        <p style="font-family: serif;font-size: larger;"><\h1 style="font-family:verdana;\</p>
+        <p style="font-family:cursive;font-size: larger;"><\h1 style="font-family:verdana;\</p>
+        <p style="font-size: 199%;"><\h1 style="font-size:300%;"\></h1></p>
+        <p style="text-align: center;"><\h1 style="font-size:300%;"\></h1></p>
+      </div>
+      <h1 style="background-color: black;color: chartreuse;font-family: fantasy;">HTML Styles ^^</h1>
+      <div>
+        <p><b>bold</b> <i>italic</i> <strong>strong</strong> <em>emphasized</em> <mark>marked</mark> <small>small</small> <del>deleted</del>
+            <ins>ins</ins> <sub>sub</sub> <sup>sup</sup></p>
+      </div>
+      <h1>HTML Formatting ^^</h1>
+      <div>
+        <p>
+           Cascading Style Sheets <br> Inline - by using the <b style="color:red;">style</b> attribute inside HTML elements.
+           <br> Internal - by using a <\style> element in the <\head> section. Her skal man ikke bruge <\ og \> men i stedet brackets {\}. Style skal smides ind i 
+           head, og head skal lukkes før body introduceres
+           <br> External - by using a <\link> element to link to an external CSS file. Her indsætter man <\link rel="stylesheet" href="styles.css"\> i head. Kan blive
+           overwritten af Internal og Inline. Skrives med brackets som Internal. Det er også muligt at indsætte en URL
+        </p>
+        <p>CSS Border, CSS Padding, CSS Margin:<br>Alle defined af px</p>
+      </div>
+      <h1>HTML CSS ^^</h1>
+      <div>
+        <p>
+            Content. Padding. Border. Margin. In that order. From center to out.
+        </p>
+        <h4 class="dotted">
+           Flex Padding, border, margin 
+        </h4>
+      </div>
+      <h1>CSS Box Model ^^</h1>
+    </body>
+</html>
