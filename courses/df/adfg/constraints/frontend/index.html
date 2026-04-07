@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Music</title>
+    <script src="jsonview.js"></script>
+    <script src="endpoint-user.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Music</h1>
+  </body>
+  <script>
+    useEndpoint("GET", "/api/artist/120");
+    useEndpoint("GET", "/api/artist/99999");
+    useEndpoint("GET", "/api/albumsByReleaseDate?limit=10");
+    useEndpoint("GET", "/api/albumsByArtist/Metallica/albums?limit=10");
+    useEndpoint("GET", "/api/tracksByAlbum/The White Album/tracks");
+    useEndpoint("GET", "/api/tracksByArtist/The Beatles/tracks");
+    useEndpoint("GET", "/api/tracksAndGenreByArtist/The Beatles/tracks");
+    useEndpoint("GET", "/api/mediaType/Heavy Metal Classic/GB");
+    useEndpoint("GET", "/api/nationalities/Susanne/Rock");
+    useEndpoint("GET", "/api/albumCount?limit=10");
+    useEndpoint("GET", "/api/albumCount");
+    useEndpoint("GET", "/api/albumCount2");
+    useEndpoint("GET", "/api/albumCountNull");
+  </script>
+</html>
