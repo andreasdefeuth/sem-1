@@ -1,4 +1,4 @@
-# IT Architecture @ Erhvervsakademi Aarhus
+# IT Architecture @ Business Academy Aarhus
 
 Professional Bachelor's degree (195 ECTS, EQF 6)
 - Enrolled from January 2026 until May 2029
