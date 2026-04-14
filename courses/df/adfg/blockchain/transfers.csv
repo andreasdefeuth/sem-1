@@ -1,0 +1,12 @@
+transaction_id, sender_address_id, receiver_address_id, amount, currency_id
+0,(coinbase),a0324425e7,5,0
+1,(coinbase),a0324425e7,5,0
+2,a0324425e7,b07c7e7df3,2,0
+3,a0324425e7,d03894efe8,2,0
+4,a0324425e7,f076a8c8b0,3,0
+5,f076a8c8b0,a0324425e7,760,1
+6,(coinbase),c0acb3be5f,5,0
+7,a0324425e7,e088c8d932,540,1
+8,a0324425e7,e088c8d932,1,0
+9,d03894efe8,f076a8c8b0,1,0
+10,f076a8c8b0,d03894efe8,2390,2
